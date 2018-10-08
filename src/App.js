@@ -5,21 +5,33 @@ class Page extends Component{
   constructor(props){
     super();
     this.state={
-      alignment: 'left'
+      alignment: this.pages[this.pageNumber]
     }
     this.turnPage=this.turnPage.bind(this);
+    this.turnPageBack=this.turnPageBack.bind(this);
   }
 
+  pages=['left','right'];
+  pageNumber=0;
+
   turnPage(){
+    ++this.pageNumber;
     this.setState({
-      alignment: 'right'
+      alignment: this.pages[this.pageNumber]
+    });
+  }
+
+  turnPageBack(){
+    --this.pageNumber;
+    this.setState({
+      alignment: this.pages[this.pageNumber]
     });
   }
 
   render(){
     return(
       <div className={this.state.alignment}>
-        <button onClick={this.turnPage}>Previous Page</button>
+        <button onClick={this.turnPageBack}>Previous Page</button>
         {this.props.pageText}
         <button onClick={this.turnPage}>Next Page</button>
       </div>
