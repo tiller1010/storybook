@@ -13,6 +13,7 @@ class Page extends Component{
 
   pages=['one','two'];
   pageNumber=0;
+  messages=['This is the first page','This is the second page'];
 
   turnPage(){
     ++this.pageNumber;
@@ -33,7 +34,7 @@ class Page extends Component{
       <div className={this.state.currentPage}>
         <button onClick={this.turnPageBack}>Previous Page</button>
         <div className='frame'></div>
-        {this.props.pageText}
+        {this.messages[this.pageNumber]}
         <button onClick={this.turnPage}>Next Page</button>
       </div>
     );
@@ -41,11 +42,9 @@ class Page extends Component{
 }
 
 class App extends Component {
-  messages=['This is the first page','This is the second page'];
-  pageNumber=0;
   render() {
     return (
-      <Page pageText={this.messages[0]}/>
+      <Page/>
     );
   }
 }
