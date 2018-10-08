@@ -1,6 +1,6 @@
 .frame{
   width: 85%;
-  height: 400px;
+  height: 500px;
   display: inline-block;
   margin: 3%;
   border: solid rgba(2,100,240);
@@ -43,13 +43,16 @@ position: absolute;
 left:40%;
 top:280px;
 background-color: white;
+border:solid black;
+padding:5px;
+font:arial;
 }
 
 .one{
 
 }
 .one .frame{
-  background-color: blue;
+  background-color: #bebee6;
 }
 
 

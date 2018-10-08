@@ -11,19 +11,23 @@ class Page extends Component{
     this.turnPageBack=this.turnPageBack.bind(this);
   }
 
-  pages=['one','two'];
+  pages=['zero','one','two'];
   pageNumber=0;
-  messages=['This is the first page','This is the second page'];
+  messages=['Title Page','This is the first page','This is the second page'];
 
   turnPage(){
-    ++this.pageNumber;
+    if(this.pageNumber<this.pages.length-1){
+      ++this.pageNumber;
+    }
     this.setState({
       currentPage: this.pages[this.pageNumber]
     });
   }
 
   turnPageBack(){
-    --this.pageNumber;
+    if(this.pageNumber>0){
+      --this.pageNumber;
+    }
     this.setState({
       currentPage: this.pages[this.pageNumber]
     });
