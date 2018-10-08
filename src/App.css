@@ -48,6 +48,15 @@ padding:5px;
 font:arial;
 }
 
+#pageNumber{
+  position: absolute;
+  top: 10%;
+  right:20%;
+  color:#64a75f;
+  font-size: 20px;
+  font-family:arial;
+}
+
 .one{
 
 }

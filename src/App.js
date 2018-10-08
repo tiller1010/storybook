@@ -38,6 +38,7 @@ class Page extends Component{
       <div className={this.state.currentPage}>
         <div className='frame'></div>
           <div id='text'>{this.messages[this.pageNumber]}</div>
+          <div id='pageNumber'>{this.pageNumber}</div>
         <button id='previous' onClick={this.turnPageBack}>Previous Page</button>
         <button id='next' onClick={this.turnPage}>Next Page</button>
       </div>
