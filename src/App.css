@@ -1,6 +1,22 @@
-.left{
+.frame{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: solid black;
+}
+
+
+.one{
   text-align: left;
 }
-.right{
+.one .frame{
+  background-color: blue;
+}
+
+
+.two{
   text-align: right;
+}
+.two .frame{
+  background-color: red;
 }
