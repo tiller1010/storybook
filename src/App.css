@@ -1,13 +1,52 @@
 .frame{
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  border: solid black;
+  width: 85%;
+  height: 400px;
+  display: inline-block;
+  margin: 3%;
+  border: solid rgba(2,100,240);
+  border-width:9px;
+  border-radius: 3px;
 }
 
+#previous{
+  position: absolute;
+  left: 10%;
+  top: 360px;
+}
+
+#next{
+  position: absolute;
+  right:20%;
+  top:360px;
+}
+
+button{
+  height:40px;
+  width:110px;
+  border-radius: 15px;
+  outline: none;
+  opacity: .98;
+  color:white;
+  border-color:black;
+  font-family: Arial Black,Arial;
+  font-size: 11px;
+  background-color: rgba(40,40,100,.5);
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgba(40,40,100,.9)
+}
+
+#text{
+position: absolute;
+left:40%;
+top:280px;
+background-color: white;
+}
 
 .one{
-  text-align: left;
+
 }
 .one .frame{
   background-color: blue;
@@ -15,7 +54,7 @@
 
 
 .two{
-  text-align: right;
+
 }
 .two .frame{
   background-color: red;

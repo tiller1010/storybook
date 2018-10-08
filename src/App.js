@@ -32,10 +32,10 @@ class Page extends Component{
   render(){
     return(
       <div className={this.state.currentPage}>
-        <button onClick={this.turnPageBack}>Previous Page</button>
         <div className='frame'></div>
-        {this.messages[this.pageNumber]}
-        <button onClick={this.turnPage}>Next Page</button>
+          <div id='text'>{this.messages[this.pageNumber]}</div>
+        <button id='previous' onClick={this.turnPageBack}>Previous Page</button>
+        <button id='next' onClick={this.turnPage}>Next Page</button>
       </div>
     );
   }
