@@ -57,17 +57,36 @@ font:arial;
   font-family:arial;
 }
 
-.one{
+.buildBlocks{
+  position: absolute;
+  top:30%;
+  left:50%;
+}
 
+.blocks{
+  position: relative;
+}
+
+
+/*The following is CSS art for Page 1*/
+.one #block1{
+  background-color: red;
+  height:40px;
+  width: 40px;
 }
 .one .frame{
   background-color: #bebee6;
 }
+/*----------------------------------*/
 
 
-.two{
-
+/*The following is CSS art for Page 2*/
+.two #block1{
+  background-color:blue;
+  height:40px;
+  width: 40px;
 }
 .two .frame{
   background-color: red;
 }
+/*----------------------------------*/

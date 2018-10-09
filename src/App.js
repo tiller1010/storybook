@@ -11,7 +11,7 @@ class Page extends Component{
     this.turnPageBack=this.turnPageBack.bind(this);
   }
 
-  pages=['zero','one','two'];
+  pages=['title','one','two'];
   pageNumber=0;
   messages=['Title Page','This is the first page','This is the second page'];
 
@@ -39,8 +39,20 @@ class Page extends Component{
         <div className='frame'></div>
           <div id='text'>{this.messages[this.pageNumber]}</div>
           <div id='pageNumber'>{this.pageNumber}</div>
-        <button id='previous' onClick={this.turnPageBack}>Previous Page</button>
-        <button id='next' onClick={this.turnPage}>Next Page</button>
+            <button id='previous' onClick={this.turnPageBack}>Previous Page</button>
+            <button id='next' onClick={this.turnPage}>Next Page</button>
+              <div className='buildBlocks'>
+                <div id='block1' className='blocks'></div>
+                <div id='block2' className='blocks'></div>
+                <div id='block3' className='blocks'></div>
+                <div id='block4' className='blocks'></div>
+                <div id='block5' className='blocks'></div>
+                <div id='block6' className='blocks'></div>
+                <div id='block7' className='blocks'></div>
+                <div id='block8' className='blocks'></div>
+                <div id='block9' className='blocks'></div>
+                <div id='block10' className='blocks'></div>
+            </div>
       </div>
     );
   }
