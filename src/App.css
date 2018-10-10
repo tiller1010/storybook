@@ -11,16 +11,15 @@
 #previous{
   position: absolute;
   left: 10%;
-  top: 360px;
 }
 
 #next{
   position: absolute;
   right:20%;
-  top:360px;
 }
 
 button{
+  top:470px;
   height:40px;
   width:110px;
   z-index:1;
@@ -44,10 +43,12 @@ position: absolute;
 left:40%;
 top:280px;
 z-index: 1;
-background-color: white;
-border:solid black;
-padding:5px;
-font:arial;
+color:#44443ef5;
+background-color: #bddfeff2;
+border:solid #cce89f;
+border-radius:10px;
+padding:7px;
+font-family:'Arial Black',arial;
 }
 
 #pageNumber{
@@ -81,10 +82,11 @@ font:arial;
 }
 .title #block2{
   background-color: brown;
-  width:120%;
+  width:200%;
   height:60px;
   right:45%;
   bottom:75px;
+  border-radius: 10px;
 }
 .title #block3{
   height:160px;
@@ -93,8 +95,33 @@ font:arial;
   background-color: black;
   bottom:270px;
 }
+.title #block4{
+  height:100px;
+  width:260px;
+  background-color: grey;
+  bottom:290px;
+  right:130px;
+}
+.title #block5{
+  height:90px;
+  width:200px;
+  background-color: green;
+  transform:rotate(-45deg);
+  bottom:360px;
+  right:5px;
+}
+.title #block6{
+  height:30px;
+  width:200px;
+  background-color: green;
+  bottom:490px;
+  left:100px;
+}
 .title .frame{
-  background-color: white;
+  background-color: tan;
+}
+.title #text{
+  display: none;
 }
 /*-------------------------------Title*/
 
