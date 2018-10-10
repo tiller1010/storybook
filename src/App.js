@@ -13,7 +13,7 @@ class Page extends Component{
 
   pages=['title','one','two'];
   pageNumber=0;
-  messages=['Title Page','This is the first page','This is the second page'];
+  messages=['Jaw-Vah\'s Crypt','This is the first page','This is the second page'];
 
   turnPage(){
     if(this.pageNumber<this.pages.length-1){
@@ -35,7 +35,7 @@ class Page extends Component{
 
   render(){
     return(
-      <div className={this.state.currentPage}>
+      <div id='border' className={this.state.currentPage}>
         <div className='frame'></div>
           <div id='text'>{this.messages[this.pageNumber]}</div>
           <div id='pageNumber'>{this.pageNumber}</div>

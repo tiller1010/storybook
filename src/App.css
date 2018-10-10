@@ -1,3 +1,9 @@
+#border{
+  border:solid black;
+  background-color: #d2771a;
+  z-index:3;
+}
+
 .frame{
   width: 85%;
   height: 500px;
@@ -40,8 +46,6 @@ button:hover{
 
 #text{
 position: absolute;
-left:40%;
-top:280px;
 z-index: 1;
 color:#44443ef5;
 background-color: #bddfeff2;
@@ -53,11 +57,11 @@ font-family:'Arial Black',arial;
 
 #pageNumber{
   position: absolute;
-  top: 10%;
-  right:20%;
+  top: 13%;
+  right:17%;
   color:#64a75f;
-  font-size: 20px;
-  font-family:arial;
+  font-size: 50px;
+  font-family:Impact,arial;
 }
 
 .buildBlocks{
@@ -73,16 +77,16 @@ font-family:'Arial Black',arial;
 
 /*The following is CSS art for the Title*/
 .title #block1{
-  background-color: brown;
+  background-color: #691919;
   width:200px;
   height:300px;
-  right:30%;
+  right:30px;
   bottom:50px;
   border-radius: 25px;
 }
 .title #block2{
-  background-color: brown;
-  width:200%;
+  background-color: #561111;
+  width:600px;
   height:60px;
   right:45%;
   bottom:75px;
@@ -98,30 +102,40 @@ font-family:'Arial Black',arial;
 .title #block4{
   height:100px;
   width:260px;
-  background-color: grey;
+  background-color: #484c54;
   bottom:290px;
   right:130px;
 }
 .title #block5{
   height:90px;
   width:200px;
-  background-color: green;
+  background-color: #106410;
   transform:rotate(-45deg);
-  bottom:360px;
+  bottom:420px;
   right:5px;
 }
 .title #block6{
   height:30px;
   width:200px;
-  background-color: green;
+  background-color: #106410;
   bottom:490px;
   left:100px;
 }
+.title #block7{
+  height:160px;
+  width:80px;
+  border-radius: 40px;
+  background-color: black;
+  bottom:700px;
+  left:20px;
+}
 .title .frame{
-  background-color: tan;
+  background-color: #3a1111;
 }
 .title #text{
-  display: none;
+  font-size:50px;
+  top: 30%;
+  left:9%
 }
 /*-------------------------------Title*/
 
