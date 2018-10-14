@@ -13,7 +13,7 @@ class Page extends Component{
 
   pages=['title','one','two'];
   pageNumber=0;
-  messages=['Jaw-Vah\'s Crypt','This is the first page','This is the second page'];
+  messages=['Jaw-Vah\'s Crypt','In the crypt there exist creatures known as "Very-Ables"','This is the second page'];
 
   turnPage(){
     if(this.pageNumber<this.pages.length-1){
