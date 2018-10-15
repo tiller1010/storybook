@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Canvas from './canvas1.js'
+import Canvas from './canvas.js'
 
 
 class Page extends Component{
@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div>
       <Page/>
-      <Canvas />
+      <Canvas className="canvas"/>
     </div>
     );
   }

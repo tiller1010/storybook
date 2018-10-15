@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './canvas.css';
 
 class Canvas extends Component{
 
@@ -18,7 +18,7 @@ class Canvas extends Component{
 
   render(){
     return(
-        <canvas ref="canvas" height="100" width="100"></canvas>
+        <canvas ref="canvas" height="517" width="1087"></canvas>
     );
   }
 }
