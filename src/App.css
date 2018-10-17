@@ -1,7 +1,7 @@
 #border{
-  border:solid black;
-  background-color: #d2771a;
+  background-color: #ceb59c;
   z-index:3;
+  box-shadow: 5px 5px 20px black;
 }
 
 .frame{

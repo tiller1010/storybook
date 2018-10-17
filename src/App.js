@@ -55,6 +55,7 @@ class Page extends Component{
                 <div id='block9' className='blocks'></div>
                 <div id='block10' className='blocks'></div>
             </div>
+            <Canvas pageNumber={this.state.currentPage}/>
       </div>
     );
   }
@@ -65,7 +66,6 @@ class App extends Component {
     return (
       <div>
       <Page/>
-      <Canvas className="canvas"/>
     </div>
     );
   }

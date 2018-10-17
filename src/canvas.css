@@ -2,6 +2,8 @@ Canvas{
   position: absolute;
   top:10px;
   left:10px;
-  border:solid black;
+  border:solid #d66d00;
   border-width:30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px #5e5f58;
 }
