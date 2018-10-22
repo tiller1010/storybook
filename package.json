@@ -2,7 +2,7 @@
   "name": "storybook",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://tiller1010.github.io/storybook",
+  "homepage":"https://tiller1010.github.io/storybook/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
